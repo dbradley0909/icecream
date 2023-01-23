@@ -1,0 +1,154 @@
+/* Desktop view */
+
+@media screen and (max-width: 1800px) {
+    body {
+        background-image: url('https://previews.123rf.com/images/pixelliebe/pixelliebe1507/pixelliebe150700082/42768895-pnk-strawberry-ice-cream-background-texture.jpg');
+        color:lemonchiffon;
+      }
+      .cone{
+        border:solid red;
+          width:190px;
+          height:190px;
+          background-image: url('https://www.clipartmax.com/png/middle/138-1387896_cute-pink-strawberry-label-cute-strawberry-logo.png');
+          background-size:cover;
+        }
+        .cone2{
+            border:solid red;
+              width:190px;
+              height:190px;
+              background-image: url('https://www.clipartmax.com/png/middle/138-1387896_cute-pink-strawberry-label-cute-strawberry-logo.png');
+              background-size:cover;
+            }
+        .shop{
+            font-size: 42px;
+            border-radius: 22px;
+            background-color: red;
+            color:white;
+
+        }
+        .paragraphBox{
+            font-size:x-large;
+            border: 22px;
+            background-color:pink;
+            color:white;
+        }
+        .paragraphBox2{
+            font-size:x-large;
+            border: 22px;
+            background-color:pink;
+            color:white;
+        }
+        .mainContainer{
+            display: block;
+            justify-content: none;
+        }
+        .box{
+            background-color:rgb(162, 67, 83);
+            border: 2px dotted whitesmoke;
+        }
+    }
+  /* --------------------------------------------- */
+/* ipad view */
+  @media screen and (max-width: 1200px) {
+    body {
+      
+        background-image:url('https://as2.ftcdn.net/v2/jpg/02/33/81/99/1000_F_233819987_9F42rOqpGgYGDFWkju6ECb0oc4D6a4fZ.jpg');
+        color:black;
+      }
+  ​
+      .cone{
+        border:solid red;
+          width:190px;
+          height:190px;
+          background-image: url('https://toppng.com/uploads/preview/vanilla-png-11553730312qkfmp9fd0x.png');
+          background-size:cover;
+        }
+        .cone2{
+            border:solid red;
+              width:190px;
+              height:190px;
+              background-image: url('https://www.clipartmax.com/png/middle/138-1387896_cute-pink-strawberry-label-cute-strawberry-logo.png');
+              background-size:cover;
+            }
+        .mainContainer{
+            display: flex;
+            justify-content: space-between;
+        }
+        .shop{
+            font-size: 42px;
+            border-radius: 22px;
+            background-color: grey;
+            color:white;
+
+        }
+        .paragraphBox{
+            font-size:x-large;
+            border-radius: 22px;
+            background-color: rgb(185, 170, 170);
+            color:white;
+        }
+        .paragraphBox2{
+            font-size:x-large;
+            border-radius: 22px;
+            background-color: rgb(185, 170, 170);
+            color:white;
+        }
+        .box{
+            background-color: rgb(153, 133, 133);
+            border: 2px dotted whitesmoke;
+        }
+        }
+  
+    /* make sure you use display flex */
+  
+  /* ----------------------------------------------- */
+/* mobile view */
+  @media screen and (max-width: 800px) {
+    body {
+        background-image:url('https://st2.depositphotos.com/4278641/8758/i/950/depositphotos_87587010-stock-photo-chocolate-ice-cream-background.jpg');
+        color:white;
+      }
+  ​
+      .cone{
+        border:solid red;
+          width:190px;
+          height:190px;
+          background-image: url('https://png.pngtree.com/png-vector/20210112/ourmid/pngtree-delicious-chocolate-clipart-png-image_2712415.jpg');
+          background-size:cover;
+        }
+        .cone2{
+            border:solid brown;
+              width:190px;
+              height:190px;
+              background-image: url('https://th.bing.com/th/id/OIP.ZGh2tPZQsZ1xqkkcx357NAHaLH?w=182&h=273&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+              background-size:cover;
+            }
+        .mainContainer{
+            display: block;
+            justify-content: none;
+        }
+        .shop{
+            font-size: 42px;
+            border-radius: 22px;
+            background-color: black;
+            color:white;
+        }
+        .paragraphBox{
+            font-size:x-large;
+            border-radius: 22px;
+            background-color: black;
+            color:white;
+        }
+        .paragraphBox2{
+            font-size:x-large;
+            border-radius: 22px;
+            background-color: black;
+            color:white;
+        }
+        .box{
+            background-color: rgb(56, 17, 17);
+            border: 2px dotted whitesmoke;
+        }
+  }
+    
+  /* =--------------------------------- */
